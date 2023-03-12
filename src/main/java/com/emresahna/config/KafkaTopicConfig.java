@@ -10,7 +10,7 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic firstTopic() {
-        return TopicBuilder.name("first-topic")
+        return TopicBuilder.name("transfer-notification")
                 .build();
     }
 }
